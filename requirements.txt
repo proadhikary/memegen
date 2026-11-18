@@ -1,0 +1,14 @@
+# CUDA 12.8 wheels: pip install -r requirements.txt --extra-index-url https://download.pytorch.org/whl/cu128
+torch==2.8.0
+torchvision==0.23.0
+diffusers==0.43.0
+transformers==5.23.0
+accelerate==1.16.0
+huggingface_hub==2.4.0
+hf_transfer==0.1.9
+pillow==11.3.0
+brotli==1.2.1
+einops==0.8.1
+# optional: faster Qwen3.5 linear-attention kernels
+flash-linear-attention==0.6.0
+fla-core==0.6.0
