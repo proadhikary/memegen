@@ -1,0 +1,9 @@
+# generated memes / CSVs
+output/
+# local environment & caches
+.venv/
+__pycache__/
+*.pyc
+# local reference image
+image.png
+*.zip
